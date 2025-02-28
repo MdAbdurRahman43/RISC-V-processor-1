@@ -1,0 +1,5 @@
+00000013  // NOP (addi x0, x0, 0)
+00208133  // ADD x2, x1, x2
+00410233  // ADD x4, x2, x4
+00A203B3  // ADD x7, x4, x10
+00000063  // BEQ x0, x0, 0 (Infinite loop to stop execution)
